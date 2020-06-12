@@ -1,3 +1,13 @@
+@media screen and (max-width: 855px) {
+  body {
+    width: 855px;
+  }
+}
+
+/* @media screen and (min-width: 856px) {
+
+} */
+
 button:hover {
   background-color: orchid;
   transition: 0.5s;
@@ -14,26 +24,15 @@ button:hover {
 .jumbotron {
   margin: 0px;
   text-align: center;
-  background-image: linear-gradient(to bottom right,rgb(55, 211, 231),rgb(13, 207, 143));
-  transition: 0.8s;
-}
-
-.jumbotron:hover {
   background-image: linear-gradient(to bottom,rgb(55, 211, 231),rgb(13, 207, 143));
-  transition: 0.8s;
 }
 
 #rodgers-banner {
   background-image: url(../img/rodgers.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
   height: 400px;
-}
-
-#rodgers-banner:hover {
-  background-size: 102%;
-  transition: 0.8s;
+  width: auto;
 }
 
 #quote {
@@ -50,10 +49,14 @@ button:hover {
 }
 
 #footer {
-  display: flex;
-  align-items: center;
+  background-color: grey;
 }
 
+#footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
 img {
   width: 300px;
@@ -69,5 +72,6 @@ img:hover {
 
 form {
   margin-top: 60px;
+  margin-bottom: 10px;
   max-width: 300px;
 }
