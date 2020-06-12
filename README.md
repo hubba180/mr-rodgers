@@ -23,13 +23,13 @@ _This website includes an input field for the user in which they can enter any n
 
 **Behavior** When counting up to the user input the program replaces numbers that contain 2 with "Boop!"
 * Input: 12
-* Output: "Boop"
+* Output: 0Beep!Boop!345678910Beep!Boop!
 * Complete: True
 
 **Behavior** When counting up to the user input the program replaces numbers that contain 3 with "Wont you be my neighbor?"
 * Input: 13
-* Output: "Wont you be my neighbor?"
-* Complete: False
+* Output: 0Beep!Boop!Won't you be my neighbor?45678910Beep!Boop!Won't you be my neighbor?
+* Complete: True
 
 **Behavior** Numbers involving a combination 1, 2, or 3 will use the highest number present to determine which case is appropriate
 * Input: 31

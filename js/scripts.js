@@ -22,6 +22,9 @@ function countLikeRodgers(userInput) {
       } else if (counterString.charAt((counterString.length - 1) - j) === "2") {
         result += "Boop!"
         break;
+      } else if (counterString.charAt((counterString.length - 1) - j) === "3") {
+        result += "Won't you be my neighbor?"
+        break;
       } else {
         result += counter.toString();
         break;
