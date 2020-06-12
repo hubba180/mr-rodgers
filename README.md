@@ -24,7 +24,7 @@ _This website includes an input field for the user in which they can enter any n
 **Behavior** When counting up to the user input the program replaces numbers that contain 2 with "Boop!"
 * Input: 12
 * Output: "Boop"
-* Complete: False
+* Complete: True
 
 **Behavior** When counting up to the user input the program replaces numbers that contain 3 with "Wont you be my neighbor?"
 * Input: 13

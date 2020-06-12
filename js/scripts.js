@@ -16,8 +16,11 @@ function countLikeRodgers(userInput) {
     let counter = i;
     let counterString = counter.toString()
     for (j=0; j < counterString.length; j++) {
-      if (counterString.charAt(j) === "1") {
+      if (counterString.charAt((counterString.length - 1) - j) === "1") {
         result += "Beep!"
+        break;
+      } else if (counterString.charAt((counterString.length - 1) - j) === "2") {
+        result += "Boop!"
         break;
       } else {
         result += counter.toString();
