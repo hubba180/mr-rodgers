@@ -14,7 +14,7 @@ button:hover {
 .jumbotron {
   margin: 0px;
   text-align: center;
-
+  background-image: linear-gradient(to bottom right,rgb(55, 211, 231),rgb(13, 207, 143));
 }
 
 #rodgers-banner {
@@ -34,6 +34,7 @@ button:hover {
 
 #rodgers-letter {
   display: none;
+  font-family: cursive;
 }
 
 form {

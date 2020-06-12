@@ -3,9 +3,11 @@ $(document).ready(function() {
   $("#input").submit(function() {
     event.preventDefault();
     const userInput = $("#count-to").val();
+    const userName = $("#name-input").val();
     const result = countLikeRodgers(userInput);
-    $("#rodgers-letter").fadeIn();
+    $("#name").text(userName);
     $("#output").append('<br><span>' + result + '</span><br>');
+    $("#rodgers-letter").fadeIn();
   });
 });
 
