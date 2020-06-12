@@ -5,9 +5,14 @@ $(document).ready(function() {
     const userInput = $("#count-to").val();
     const userName = $("#name-input").val();
     const result = countLikeRodgers(userInput);
-    $("#name").text(userName);
-    $("#output").append('<br><span>' + result + '</span><br>');
-    $("#rodgers-letter").fadeIn();
+    $(".name").text(userName);
+    if (negativeTester(userInput) === true) {
+      $("#output").append('<br><span>' + result + '</span><br>');
+      $("#rodgers-letter").slideDown();
+      $("#error").hide();
+    } else {
+      $("#error").slideDown();
+    }
   });
 });
 
@@ -34,4 +39,13 @@ function countLikeRodgers(userInput) {
     }
   }
   return result
+}
+
+function negativeTester(number) {
+  const integer = parseInt(number)
+  if (integer < 0) {
+    return false;
+  } else {
+    return true;
+  }
 }

@@ -41,6 +41,7 @@ _This website includes an input field for the user in which they can enter any n
 **Behavior** Numbers appear with spaces between them
 * Input: 4
 * Output: 0 Beep! Boop! Won't you be my neighbor? 4
+* Complete: True
 
 ## Setup/Installation Requirements
 

@@ -1,7 +1,3 @@
-body {
-  
-}
-
 button:hover {
   background-color: orchid;
   transition: 0.5s;
@@ -11,17 +7,33 @@ button:hover {
   font-size: large;
 }
 
+#error {
+  display: none;
+}
+
 .jumbotron {
   margin: 0px;
   text-align: center;
   background-image: linear-gradient(to bottom right,rgb(55, 211, 231),rgb(13, 207, 143));
+  transition: 0.8s;
+}
+
+.jumbotron:hover {
+  background-image: linear-gradient(to bottom,rgb(55, 211, 231),rgb(13, 207, 143));
+  transition: 0.8s;
 }
 
 #rodgers-banner {
   background-image: url(../img/rodgers.jpg);
-  background-size: cover;
-  width: 100vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
   height: 400px;
+}
+
+#rodgers-banner:hover {
+  background-size: 102%;
+  transition: 0.8s;
 }
 
 #quote {
@@ -35,6 +47,24 @@ button:hover {
 #rodgers-letter {
   display: none;
   font-family: cursive;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+}
+
+
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+img:hover {
+  box-shadow: 10px 10px 10px;
+  transition: 0.5s;
 }
 
 form {
