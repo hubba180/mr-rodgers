@@ -1,0 +1,4 @@
+button:hover {
+  background-color: orchid;
+  transition: 0.8s;
+}
