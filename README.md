@@ -14,7 +14,7 @@ _This website includes an input field for the user in which they can enter any n
 **Behavior** The program takes a number input from the user and displays a string counting up to that number in the output
 * Input: 5
 * Output: 012345
-* Complete: False
+* Complete: True
 
 **Behavior** When counting up to the user input the program replaces numbers that contain 1 with "Beep!"
 * Input: 15
