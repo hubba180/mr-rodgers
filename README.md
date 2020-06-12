@@ -2,7 +2,7 @@
 #### _Learn to count like Mr. Rodgers, 6/12/2020_
 #### By _**Kyle Hubbard**_
 ## Description
-_This website includes an input field for the user in which they can enter any number that they'd like to see Mr. Rodgers count up to. Once they hit enter they will recieve transcript of Mr. Rodgers completeing that task_
+_This website includes an input field for the user in which they can enter any number that they'd like to see Mr. Rodgers count up to. Once they hit enter they will recieve transcript from Mr. Rodgers completeing that task, but there's a twist, some numbers will be replaced with random statements to mimic a robot! See the specifications below for a complete list of what changes will be made_
 
 ## Specifications
 
