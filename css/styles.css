@@ -2,3 +2,7 @@ button:hover {
   background-color: orchid;
   transition: 0.8s;
 }
+
+#output {
+  font-size: large;
+}

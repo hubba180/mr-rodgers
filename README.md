@@ -9,7 +9,7 @@ _This website includes an input field for the user in which they can enter any n
 **Behavior** The program takes a string input from a user and displays that input in the output area **
 * Input: 8
 * Output: 8
-* Complete: False
+* Complete: True
 
 **Behavior** The program takes a number input from the user and displays a string counting up to that number in the output
 * Input: 5
