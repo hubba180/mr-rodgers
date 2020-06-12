@@ -12,24 +12,27 @@ $(document).ready(function() {
 
 function countLikeRodgers(userInput) {
   let result = "";
+  let resultArray = [];
   for (i = 0; i <= parseInt(userInput); i++) {
-    let counter = i;
-    let counterString = counter.toString()
-    for (j=0; j < counterString.length; j++) {
-      if (counterString.charAt((counterString.length - 1) - j) === "1") {
-        result += "Beep!"
-        break;
-      } else if (counterString.charAt((counterString.length - 1) - j) === "2") {
-        result += "Boop!"
-        break;
-      } else if (counterString.charAt((counterString.length - 1) - j) === "3") {
-        result += "Won't you be my neighbor?"
-        break;
-      } else {
-        result += counter.toString();
-        break;
-      }
+    let counterString = i.toString()
+    resultArray.push(counterString)
+  }
+  for (j = 0; j < resultArray.length; j++) {
+    let number = resultArray[j];
+    let numberArray = number.slice("")
+
+    if (numberArray.includes(3)) {
+      result += "Won't you be my neighbor? ";
+    } else if (numberArray.includes(2)) {
+      result += "Boop! ";
+    } else if (numberArray.includes(1)) {
+      result += "Beep! ";
+    } else {
+      result += number + " ";
     }
   }
+
+
+  
   return result
 }

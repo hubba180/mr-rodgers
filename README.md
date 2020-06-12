@@ -36,7 +36,7 @@ _This website includes an input field for the user in which they can enter any n
 * Output: "Wont you be my neighbor?"
 * Input: 23
 * Output: "Wont you be my neighbor?"
-* Complete: False
+* Complete: True
 
 ## Setup/Installation Requirements
 
