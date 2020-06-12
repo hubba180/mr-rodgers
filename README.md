@@ -18,8 +18,8 @@ _This website includes an input field for the user in which they can enter any n
 
 **Behavior** When counting up to the user input the program replaces numbers that contain 1 with "Beep!"
 * Input: 15
-* Output: "Beep!"
-* Complete: False
+* Output: 0Beep!23456789Beep!Beep!Beep!Beep!Beep!Beep!
+* Complete: True
 
 **Behavior** When counting up to the user input the program replaces numbers that contain 2 with "Boop!"
 * Input: 12
