@@ -4,13 +4,10 @@
   }
 }
 
-/* @media screen and (min-width: 856px) {
-
-} */
-
-button:hover {
-  background-color: orchid;
-  transition: 0.5s;
+.jumbotron {
+  margin: 0px;
+  text-align: center;
+  background-image: linear-gradient(to bottom,rgb(55, 211, 231),rgb(13, 207, 143));
 }
 
 #output {
@@ -19,12 +16,6 @@ button:hover {
 
 #error {
   display: none;
-}
-
-.jumbotron {
-  margin: 0px;
-  text-align: center;
-  background-image: linear-gradient(to bottom,rgb(55, 211, 231),rgb(13, 207, 143));
 }
 
 #rodgers-banner {
@@ -74,4 +65,9 @@ form {
   margin-top: 60px;
   margin-bottom: 10px;
   max-width: 300px;
+}
+
+button:hover {
+  background-color: orchid;
+  transition: 0.5s;
 }
