@@ -1,8 +1,42 @@
+body {
+  
+}
+
 button:hover {
   background-color: orchid;
-  transition: 0.8s;
+  transition: 0.5s;
 }
 
 #output {
   font-size: large;
+}
+
+.jumbotron {
+  margin: 0px;
+  text-align: center;
+
+}
+
+#rodgers-banner {
+  background-image: url(../img/rodgers.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 400px;
+}
+
+#quote {
+  margin-top: 40px;
+  max-width: 500px;
+  color: whitesmoke;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+#rodgers-letter {
+  display: none;
+}
+
+form {
+  margin-top: 60px;
+  max-width: 300px;
 }

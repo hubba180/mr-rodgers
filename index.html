@@ -10,20 +10,26 @@
   <title>Counting with Mr. Rodgers</title>
 </head>
 <body>
-  <div class="container">
+  <div class="jumbotron">
     <h1>Counting with Mr. Rodgers</h1>
-    <form id="input">
-      <div class="form-group">
-        <label for="count-to">Enter the number you'd like to count to</label>
-        <input type="number" class="form-control" id="count-to" required>
-      </div>
-      <button type="submit" class="btn">Submit</button>
-    </form>
-    <br>
-    <br>
-    <div id="output">
-
+  </div>
+  <div id="rodgers-banner">
+    <div class="container">
+      <p id="quote">"In times of stress, the best thing we can do for each other is to listen with our ears and our hearts and to be assured that our questions are just as important as our answers."</p>
+      <form id="input">
+        <div class="form-group">
+          <label for="name-input">What is your Name?</label>
+          <input type="text" class="form-control" required>
+          <label for="count-to">Enter the number you'd like to count to</label>
+          <input type="number" class="form-control" id="count-to" required>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
     </div>
+  </div>
+  <div id="rodgers-letter" class="container">
+    <h4>Dear <span id="name"></span>,</h4>
+    <p>I'm so happy to see you have an interest in numbers because I love them too. They always come in so many different shapes and sizes, kind of like people. The more numbers we know the more we can accomplish with them. Remember it's okay if some of those numbers confuse you like this: <br><span id="output"></span><br> Did you know my favorite number is 143? It means 'I love you' because 1 = one, 4 = l-o-v-e, and 3 = y-o-u! I hope you'll think of me now whenever you come across that number.</p>
   </div>
 </body>
 </html>

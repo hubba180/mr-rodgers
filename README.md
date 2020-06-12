@@ -11,7 +11,7 @@ _This website includes an input field for the user in which they can enter any n
 * Output: 8
 * Complete: True
 
-**Behavior** The program takes a number input from the user and displays a string counting up to that number in the output
+**Behavior** The program takes a number input from the user and displays a string counting up to that number from 0 in the output
 * Input: 5
 * Output: 012345
 * Complete: True
@@ -37,6 +37,10 @@ _This website includes an input field for the user in which they can enter any n
 * Input: 23
 * Output: "Wont you be my neighbor?"
 * Complete: True
+
+**Behavior** Numbers appear with spaces between them
+* Input: 4
+* Output: 0 Beep! Boop! Won't you be my neighbor? 4
 
 ## Setup/Installation Requirements
 

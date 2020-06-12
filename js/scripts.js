@@ -4,20 +4,20 @@ $(document).ready(function() {
     event.preventDefault();
     const userInput = $("#count-to").val();
     const result = countLikeRodgers(userInput);
-    $("#output").append('<br><span>' + result + '</span>');
+    $("#rodgers-letter").fadeIn();
+    $("#output").append('<br><span>' + result + '</span><br>');
   });
 });
 
 // Business Logic
-
 function countLikeRodgers(userInput) {
   let result = "";
   let resultArray = [];
-  for (i = 0; i <= parseInt(userInput); i++) {
+  for (i = 0; i <= parseInt(userInput); i++) { // populates resultArray with all numbers up to user input
     let counterString = i.toString()
     resultArray.push(counterString)
   }
-  for (j = 0; j < resultArray.length; j++) {
+  for (j = 0; j < resultArray.length; j++) { // checks each number in resultArray for 1-3 and replaces numbers with strings in result 
     let number = resultArray[j];
     let numberArray = number.slice("")
 
@@ -31,8 +31,5 @@ function countLikeRodgers(userInput) {
       result += number + " ";
     }
   }
-
-
-  
   return result
 }
